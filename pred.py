@@ -68,7 +68,7 @@ def main():
     model = modified_resnet50()
     if args.cuda:
         model = model.cuda()
-    with open(args.model) as f:
+    with open(args.model,'rb') as f:
         model.load_state_dict(torch.load(f)['state_dict'])
     print("*** calculating the model output of the images in {img_dir}"
             .format(img_dir = args.img_dir))
