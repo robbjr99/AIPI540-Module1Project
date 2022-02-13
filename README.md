@@ -6,7 +6,7 @@ Social media has become a primary mode of consumption for news and current event
 
 This leads to a paper on Implementation of the model used in the paper **_Protest Activity Detection and Perceived Violence Estimation from Social Media Images_** (ACM Multimedia 2017) [\[arxiv\]](https://arxiv.org/abs/1709.06204) *by Donghyeon Won, Zachary C. Steinert-Threlkeld, Jungseock Joo*.
 
-Utilizing this paper's algorithm we added a GRAD-CAM for more interpretability to identify where the algorithm is picking up the violence estimations.
+Utilizing this paper's algorithm we added a GRAD-CAM for more interpretability to identify where the algorithm is picking up the violence estimations. For PowerPoint link click [here](https://github.com/robbjr99/AIPI540-Module1Project/blob/main/CV%20Module%201.pptx).
 
 ## Install
 1. Clone this repo locally `git clone git@github.com:robbjr99/AIPI540-Module1Project.git`
@@ -26,6 +26,10 @@ python train.py --data_dir UCLA-protest/ --batch_size 32 --lr 0.002 --print_freq
 ```bash
 python pred.py --img_dir path/to/some/image/directory/ --output_csvpath result.csv --model model_best.pth.tar --cuda
 ```
+
+## Results
+<img width="318" alt="result1" src="https://user-images.githubusercontent.com/88054926/153778084-02451230-680f-4fa7-b23d-7bc9b8a3b07e.png">
+<img width="318" alt="result2" src="https://user-images.githubusercontent.com/88054926/153778085-4aa46b0f-3951-46af-8f9b-8e596a363fcf.png">
 
 ## Authors
 - Robert Baldoni
