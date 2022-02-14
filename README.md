@@ -28,6 +28,8 @@ python pred.py --img_dir path/to/some/image/directory/ --output_csvpath result.c
 ```
 
 ## Results
+Gradient-weighted Class Activation Mapping (Grad-CAM), uses the gradients of any target concept, flowing into the final convolutional layer to produce a coarse localization map highlighting important regions in the image for predicting the concept. In this case the CAM is localizing pixels of preceived violence as the algorithm has estimated. More about Grad-CAM can be found [here](https://arxiv.org/abs/1610.02391).
+
 <img width="318" alt="result1" src="https://user-images.githubusercontent.com/88054926/153778084-02451230-680f-4fa7-b23d-7bc9b8a3b07e.png">
 <img width="318" alt="result2" src="https://user-images.githubusercontent.com/88054926/153778085-4aa46b0f-3951-46af-8f9b-8e596a363fcf.png">
 
