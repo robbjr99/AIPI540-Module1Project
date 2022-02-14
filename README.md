@@ -4,9 +4,13 @@
 
 Social media has become a primary mode of consumption for news and current events. Therefore, having a variety of content without description in the age of information, how can we evaluate content specifically for sensitive and violent images? Is there an algorithm that can estimate violence?
 
-This leads to a paper on Implementation of the model used in the paper **_Protest Activity Detection and Perceived Violence Estimation from Social Media Images_** (ACM Multimedia 2017) [\[arxiv\]](https://arxiv.org/abs/1709.06204) *by Donghyeon Won, Zachary C. Steinert-Threlkeld, Jungseock Joo*.
+This leads to an algorithm on Implementation of the model used in the paper **_Protest Activity Detection and Perceived Violence Estimation from Social Media Images_** (ACM Multimedia 2017) [\[arxiv\]](https://arxiv.org/abs/1709.06204) *by Donghyeon Won, Zachary C. Steinert-Threlkeld, Jungseock Joo*.
 
 Utilizing this paper's algorithm we added a GRAD-CAM for more interpretability to identify where the algorithm is picking up the violence estimations. For PowerPoint link click [here](https://github.com/robbjr99/AIPI540-Module1Project/blob/main/CV%20Module%201.pptx).
+
+## Traditional ML versus Deep Learning
+
+While traditional ML can be used to classify or cluster event types, that is not the goal of our model. We aim to investigate the nuanced characteristics of images to detect perceived violence, rather than to identify the type of event being pictured. By sorting images according to certain attributes or cumulative perceived violence scores, we would thereby be validating the assumptions placed upon the attributes and their contribution to perceived violence. Our objective is to gain further insight, rather to reinforce, which is better achieved by a deep learning model.
 
 ## Install
 1. Clone this repo locally `git clone git@github.com:robbjr99/AIPI540-Module1Project.git`
