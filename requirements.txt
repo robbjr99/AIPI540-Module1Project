@@ -3,3 +3,4 @@ pytorch
 numpy
 matplotlib
 scikit-learn
+torchvision
