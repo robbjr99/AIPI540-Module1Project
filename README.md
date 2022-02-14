@@ -42,3 +42,18 @@ Gradient-weighted Class Activation Mapping (Grad-CAM), uses the gradients model‚
 - Robert Baldoni
 - Miranda Morris
 - Hearsch Jariwala
+
+## Citation
+
+For this project we used this [BibTeX](http://www.bibtex.org/) reference:
+
+```bibtex
+@misc{torcham2020,
+    title={TorchCAM: class activation explorer},
+    author={Fran√ßois-Guillaume Fernandez},
+    year={2020},
+    month={March},
+    publisher = {GitHub},
+    howpublished = {\url{https://github.com/frgfm/torch-cam}}
+}
+```
